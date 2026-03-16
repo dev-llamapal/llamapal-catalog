@@ -11,7 +11,11 @@
       "quant_label": "Balanced (Recommended)",
       "min_ram_gb": 2,
       "recommended_ram_gb": 4,
-      "use_cases": ["chat", "writing", "summarization"],
+      "use_cases": [
+        "chat",
+        "writing",
+        "summarization"
+      ],
       "speed_tier": "fast",
       "quality_tier": "good",
       "recommended": true,
@@ -19,7 +23,9 @@
       "description": "Fast, lightweight model. Great for everyday chat on any device.",
       "license": "Llama 3.2 Community License",
       "download_url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf",
-      "sha256": ""
+      "sha256": "",
+      "icon_url": "",
+      "family": "llama-3.2-1b"
     },
     {
       "id": "gemma-3-1b-q4km",
@@ -31,7 +37,10 @@
       "quant_label": "Balanced",
       "min_ram_gb": 2,
       "recommended_ram_gb": 4,
-      "use_cases": ["chat", "summarization"],
+      "use_cases": [
+        "chat",
+        "summarization"
+      ],
       "speed_tier": "fast",
       "quality_tier": "good",
       "recommended": false,
@@ -39,7 +48,9 @@
       "description": "Google's efficient model, great for quick and accurate responses.",
       "license": "Gemma Terms of Use",
       "download_url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_K_M.gguf",
-      "sha256": ""
+      "sha256": "",
+      "icon_url": "",
+      "family": "gemma-3-1b"
     },
     {
       "id": "phi-3-mini-q4km",
@@ -51,7 +62,11 @@
       "quant_label": "Balanced",
       "min_ram_gb": 4,
       "recommended_ram_gb": 6,
-      "use_cases": ["chat", "coding", "reasoning"],
+      "use_cases": [
+        "chat",
+        "coding",
+        "reasoning"
+      ],
       "speed_tier": "medium",
       "quality_tier": "very_good",
       "recommended": false,
@@ -59,7 +74,9 @@
       "description": "Microsoft's efficient yet capable model. Excellent reasoning and coding.",
       "license": "MIT",
       "download_url": "https://huggingface.co/bartowski/Phi-3-mini-4k-instruct-GGUF/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf",
-      "sha256": ""
+      "sha256": "",
+      "icon_url": "",
+      "family": "phi-3-mini"
     },
     {
       "id": "qwen3-1.7b-q4km",
@@ -71,7 +88,11 @@
       "quant_label": "Balanced",
       "min_ram_gb": 3,
       "recommended_ram_gb": 5,
-      "use_cases": ["chat", "reasoning", "writing"],
+      "use_cases": [
+        "chat",
+        "reasoning",
+        "writing"
+      ],
       "speed_tier": "fast",
       "quality_tier": "very_good",
       "recommended": false,
@@ -79,7 +100,9 @@
       "description": "Alibaba's versatile model with native thinking/reasoning support.",
       "license": "Apache 2.0",
       "download_url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_K_M.gguf",
-      "sha256": ""
+      "sha256": "",
+      "icon_url": "",
+      "family": "qwen3-1.7b"
     }
   ]
 }
